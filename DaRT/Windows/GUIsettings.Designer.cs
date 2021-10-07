@@ -386,7 +386,7 @@
             // name
             // 
             this.name.Location = new System.Drawing.Point(91, 175);
-            this.name.MaxLength = 10;
+            this.name.MaxLength = 20;
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(111, 20);
             this.name.TabIndex = 37;
