@@ -11,7 +11,7 @@ namespace DaRT
 {
     static class Program
     {
-        static String version = "v2.1";
+        static String version = "v2.2";
         static GUImain gui;
         static StreamWriter writer;
 
