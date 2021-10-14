@@ -25,9 +25,9 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://forum.swisscraft.eu/DaRT/dl/</InstallUrl>
-    <SupportUrl>http://dayzmod.com/forum/index.php%3f/topic/68933-dart-a-lightweight-dayz-rcon-tool/</SupportUrl>
-    <ErrorReportUrl>http://dayzmod.com/forum/index.php%3f/topic/68933-dart-a-lightweight-dayz-rcon-tool/</ErrorReportUrl>
+    <InstallUrl>https://github.com/TheGamingChief/DaRT</InstallUrl>
+    <SupportUrl>https://github.com/TheGamingChief/DaRT/issues</SupportUrl>
+    <ErrorReportUrl>https://github.com/TheGamingChief/DaRT/issues</ErrorReportUrl>
     <TargetCulture>en</TargetCulture>
     <ProductName>DaRT</ProductName>
     <PublisherName>DomiStyle</PublisherName>
