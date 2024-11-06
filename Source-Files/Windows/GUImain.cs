@@ -1832,7 +1832,7 @@ namespace DaRT
             {
                 WebClient client = new WebClient();
                 client.Headers.Add("user-agent", "DaRT " + version);
-                String request = client.DownloadString("https://tools.thegamingchief.com/programs/DaRT/news.txt");
+                String request = client.DownloadString("https://raw.githubusercontent.com/LeMyst/DaRT/refs/heads/master/news.txt");
                 client.Dispose();
                 String[] split = request.Split(';');
                 String news = split[0];
