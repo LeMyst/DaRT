@@ -35,7 +35,7 @@ jobs:
       working-directory: ./Source-Files
  
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: DaRT
         path: Source-Files\bin\Release
