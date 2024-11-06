@@ -37,7 +37,7 @@ jobs:
       working-directory: ./Source-Files
 
     - name: Zip release folder
-      run: 7z a -tzip DaRT.zip ./Source-Files/bin/Release
+      run: 7z a -tzip DaRT.zip .
       working-directory: ./Source-Files/bin/Release
 
     - name: Upload Artifact DaRT
