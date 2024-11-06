@@ -37,7 +37,7 @@ namespace DaRT.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2302")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2305")]
         public string port {
             get {
                 return ((string)(this["port"]));

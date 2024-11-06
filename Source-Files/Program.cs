@@ -55,7 +55,7 @@ namespace DaRT
 
                 #region Read Config
                 String ip = "127.0.0.1";
-                int port = 2302;
+                int port = 2305;
                 String password = "password";
                 String command = "";
                 String output = "";
@@ -77,7 +77,7 @@ namespace DaRT
                         }
                         catch
                         {
-                            port = 2302;
+                            port = 2305;
                         }
                     }
                     else if (arg.StartsWith("-password=") || arg.StartsWith("-pass=") || arg.StartsWith("-pw="))
