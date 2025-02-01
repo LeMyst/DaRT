@@ -32,7 +32,7 @@ jobs:
       run: nuget restore DaRT.sln
       working-directory: ./Source-Files
 
-    - name: Build and Publish Web App
+    - name: Build DaRT
       run: msbuild DaRT.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile /p:DebugSymbols=false /p:DebugType=None
       working-directory: ./Source-Files
 
